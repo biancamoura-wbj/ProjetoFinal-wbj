@@ -1,0 +1,17 @@
+class SignInPage
+    include Capybara::DSL
+
+    def click_signin
+        click_link 'Entrar'
+    end
+      
+    def fill_fields_login (name_login, password_login)
+        find('#email').set name_login
+        find('#pass').set password_login
+    end
+      
+    def click_button_signin
+        click_button 'Entrar'
+    end
+
+end
