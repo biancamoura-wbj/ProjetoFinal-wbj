@@ -14,4 +14,8 @@ class SignInPage
         click_button 'Entrar'
     end
 
+    def success_login
+        page.has_css?('.logged-in', visible: true)
+    end
+
 end

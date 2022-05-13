@@ -1,3 +1,7 @@
+Before do |scenario|
+    Capybara.current_session.driver.browser.manage.delete_all_cookies
+end
+
 After do |scenario|
     image_name = "Data/Reports/img/imagem-1.png"
     temp_shot = page.save_screenshot(image_name)

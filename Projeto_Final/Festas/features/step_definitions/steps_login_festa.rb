@@ -12,4 +12,8 @@ Dado("clico em entrar") do
     signin.click_button_signin
   end
 
+  Então("devo fazer login sucesso") do
+    signin.success_login
+  end
+
   
