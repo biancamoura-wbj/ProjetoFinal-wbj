@@ -6,7 +6,7 @@ class CreateAccount
     end
 
     def access_create_account
-        click_link 'Criar conta'
+        click_link 'cadastre-se'
     end
 
     def fill_fields (name, last_name, email, password, confirm_password)
@@ -26,7 +26,7 @@ class CreateAccount
     end
 
     def click_but 
-        click_button 'Criar conta'
+        click_button 'cadastre-se'
     end
 
     def alert (message)

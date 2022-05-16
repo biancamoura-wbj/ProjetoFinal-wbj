@@ -2,8 +2,6 @@
 @login
 Funcionalidade: Tela de Login
 
-@login
-
 @login_inexistente
 Esquema do Cenario: Preencher dados inexistentes
 Dado que acesso a pagina principal

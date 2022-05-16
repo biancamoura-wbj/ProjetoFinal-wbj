@@ -2,7 +2,7 @@ class SignInPage
     include Capybara::DSL
 
     def click_signin
-        click_link 'Entrar'
+        click_link 'Entre'
     end
       
     def fill_fields_login (name_login, password_login)
@@ -11,7 +11,7 @@ class SignInPage
     end
       
     def click_button_signin
-        click_button 'Entrar'
+        click_button 'Entre'
     end
 
     def success_login

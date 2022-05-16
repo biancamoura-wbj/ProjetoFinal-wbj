@@ -1,4 +1,11 @@
+Before do
+    Capybara.current_session.driver.browser.manage.delete_all_cookies
+    page.driver.browser.manage.window.resize_to(1920, 1080)
+end
+
 After do |scenario|
+    Dir.mkdir('Data') unless Dir.exist?('Data')
+    Dir.mkdir('Data/reports') unless Dir.exist?('Data/reports')
     image_name = "Data/Reports/img/imagem-1.png"
     temp_shot = page.save_screenshot(image_name)
     file_shot = File.open(temp_shot, "rb").read

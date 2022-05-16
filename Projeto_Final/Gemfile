@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 gem 'capybara'
 gem "cucumber", "3.2.0"
-gem 'faker'
 gem 'report_builder'
 gem 'rspec'
 gem 'selenium-webdriver'

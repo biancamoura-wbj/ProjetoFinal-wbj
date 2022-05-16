@@ -1,0 +1,6 @@
+default: -p html -p bdd -p json -p chrome
+
+html: --format html --out=Data/Reports/report.html
+bdd: --format pretty
+json: --format json --out=Data/Reports/report.json
+chrome: BROWSER=chrome
