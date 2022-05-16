@@ -1,6 +1,8 @@
 #language: pt
+@login
+Funcionalidade: Tela de Login
 
-Funcionalidade: Tela de Login - Dados inexistentes
+@login
 
 @login_inexistente
 Esquema do Cenario: Preencher dados inexistentes
@@ -40,10 +42,6 @@ Exemplos:
 |                      |          | Esse campo é obrigatório. |
 |                      | Abc1234* | Esse campo é obrigatório. |
 | qatyz@mailinator.com |          | Esse campo é obrigatório. |
-
-#language: pt
-
-Funcionalidade: Tela de Login - Login com sucesso
 
 @login_sucesso
 Esquema do Cenario: Realizar login com sucesso
