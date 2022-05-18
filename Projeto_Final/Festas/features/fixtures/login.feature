@@ -2,12 +2,14 @@
 @login
 Funcionalidade: Tela de Login
 
-@login_inexistente
-Esquema do Cenario: Preencher dados inexistentes
+Contexto: Pagina Principal
 Dado que acesso a pagina principal
 E clico em entrar
+
+@login_inexistente
+Esquema do Cenario: Preencher dados inexistentes
 Quando preencho "<email>" e "<password>"
-E clico no botão
+E clico no botão entre
 Então devo ver a mensagem "<message>"
 
 Exemplos:
@@ -16,10 +18,8 @@ Exemplos:
 
 @login_invalido
 Esquema do Cenario: Preencher dados inválidos
-Dado que acesso a pagina principal
-E clico em entrar
 Quando preencho "<email>" e "<password>"
-E clico no botão
+E clico no botão entre
 Então devo ver a mensagem "<message>"
 
 Exemplos:
@@ -29,10 +29,8 @@ Exemplos:
 
 @login_obrigatorio
 Esquema do Cenario: Não preencher campos obrigatorios
-Dado que acesso a pagina principal
-E clico em entrar
 Quando preencho "<email>" e "<password>"
-E clico no botão
+E clico no botão entre
 Então devo ver a mensagem "<message>"
 
 Exemplos:
@@ -43,10 +41,8 @@ Exemplos:
 
 @login_sucesso
 Esquema do Cenario: Realizar login com sucesso
-Dado que acesso a pagina principal
-E clico em entrar
 Quando preencho "<email>" e "<password>"
-E clico no botão
+E clico no botão entre
 Então devo fazer login sucesso
 
 Exemplos:
