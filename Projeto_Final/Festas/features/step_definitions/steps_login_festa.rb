@@ -8,7 +8,7 @@ Dado("clico em entrar") do
     signin.fill_fields_login(name_login, password_login)
   end
   
-  Quando("clico no botão") do
+  Quando("clico no botão entre") do
     signin.click_button_signin
   end
 
