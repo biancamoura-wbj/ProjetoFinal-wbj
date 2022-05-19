@@ -1,4 +1,10 @@
+require "cucumber/rake/task"
+require 'erb'
+
 Before do |scenario|
+    @signup= CreateAccount.new
+   # @signin = SignInPage.new
+    #@search = SearchProduct.new
     Capybara.current_session.driver.browser.manage.delete_all_cookies
 end
 

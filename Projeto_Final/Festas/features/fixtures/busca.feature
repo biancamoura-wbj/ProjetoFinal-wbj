@@ -9,27 +9,25 @@ Funcionalidade: Busca
 Esquema do Cenario: Busca valida logado no sistema
 Dado que acesso a pagina principal
 E clico em entrar
-Quando preencho "<email>" e "<password>"
-E clico no botão entre
+Quando preencho 'maliriq@mailinator.com' e 'Pa$$w0rd!'
 E busco por "<produto>"
 Então vejo produto na tela
 
 Exemplos:
-| email                   | password  | produto |
-| maliriq@mailinator.com  | Pa$$w0rd! |         |
+| produto |
+|         |
 
 @busca_invalida_logado
 Esquema do Cenario: Busca invalida logado no sistema
 Dado que acesso a pagina principal
 E clico em entrar
-Quando preencho "<email>" e "<password>"
-E clico no botão entre
+Quando preencho 'maliriq@mailinator.com' e 'Pa$$w0rd!'
 E busco por "<produto>"
 Então devo ver a mensagem "<message>"
 
 Exemplos:
-| email                   | password | produto   | message                                 |
-| maliriq@mailinator.com  | Pa$$w0rd! | camiseta | A sua pesquisa não retornou resultados. |
+| produto   | message                                 |
+| camiseta  | A sua pesquisa não retornou resultados. |
 
 #Usuário não logado
 
