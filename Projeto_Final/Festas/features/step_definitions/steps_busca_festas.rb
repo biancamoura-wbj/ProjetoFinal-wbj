@@ -1,5 +1,3 @@
-search = SearchProduct.new
-
 Quando("busco por {string}") do |message|
     search.search_product(message)
   end

@@ -40,11 +40,7 @@ Exemplos:
 | qatyz@mailinator.com |          | Esse campo é obrigatório. |
 
 @login_sucesso
-Esquema do Cenario: Realizar login com sucesso
-Quando preencho "<email>" e "<password>"
+Cenario: Realizar login com sucesso
+Quando preencho 'maliriq@mailinator.com' e 'Pa$$w0rd!'
 E clico no botão entre
 Então devo fazer login sucesso
-
-Exemplos:
-| email                   | password  |
-| maliriq@mailinator.com  | Pa$$w0rd! |

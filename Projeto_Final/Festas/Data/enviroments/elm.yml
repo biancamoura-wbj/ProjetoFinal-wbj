@@ -1,0 +1,7 @@
+#Cadastro
+
+name: "#firstname"
+lastName: "#lastname"
+emailRegister: "#email_address"
+passwordRegister: "#password"
+confirmPassword: "#password-confirmation"

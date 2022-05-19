@@ -5,3 +5,7 @@ gem "cucumber", "3.2.0"
 gem 'report_builder'
 gem 'rspec'
 gem 'selenium-webdriver'
+gem "faker"
+gem "brazilian_documents", "~> 0.1.4"
+gem "ffi"
+gem "rufo"
