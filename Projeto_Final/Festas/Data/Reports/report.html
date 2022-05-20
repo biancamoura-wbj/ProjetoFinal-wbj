@@ -467,9 +467,671 @@ function makeRed(element_id) {
 function makeYellow(element_id) {
   $('#'+element_id).css('background', '#FAF834');
   $('#'+element_id).css('color', '#000000');
-}</script></head><body><!-- Step count 0--><div class="cucumber"><div id="cucumber-header"><div id="label"><h1>Cucumber Features</h1></div><div id="summary"><p id="totals"></p><p id="duration"></p><div id="expand-collapse"><p id="expander">Expand All</p><p id="collapser">Collapse All</p></div></div></div><div class="feature"><pre class="comment"># language: pt<br/></pre><span class="tag">@cadastro</span><h2><span class="val">Funcionalidade: Tela de Cadastro</span></h2><p class="narrative"></p><div class='scenario outline'><span class="tag">@senha_diferente</span><span class="scenario_file">features/fixtures/cadastro.feature:49</span><h3 id="scenario_1"><span class="keyword">Esquema do Cenario:</span> <span class="val">Preencher senhas diferentes</span></h3><ol><li id='' class='step skipped'><div class="step_name"><span class="keyword">Dado </span><span class="step val">que acesso a pagina principal</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:50</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico em criar conta</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:51</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Quando </span><span class="step val">prencho &quot;&lt;name&gt;&quot;, &quot;&lt;last_name&gt;&quot;, &quot;&lt;email&gt;&quot;, &quot;&lt;password&gt;&quot; e &quot;&lt;confirm_password&gt;&quot;</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:52</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico no botão criar conta</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:53</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Então </span><span class="step val">devo ver a mensagem &quot;&lt;message&gt;&quot;</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:54</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script></ol><div class="examples"><h4><span class="keyword">Exemplos</span> <span class="val"></span></h4><table><tr class='step' id='features_fixtures_cadastro_feature_57'><th id="features_fixtures_cadastro_feature_57_0" class="step skipped_param"><div><span class="step param">name</span></div></th><th id="features_fixtures_cadastro_feature_57_1" class="step skipped_param"><div><span class="step param">last_name</span></div></th><th id="features_fixtures_cadastro_feature_57_2" class="step skipped_param"><div><span class="step param">email</span></div></th><th id="features_fixtures_cadastro_feature_57_3" class="step skipped_param"><div><span class="step param">password</span></div></th><th id="features_fixtures_cadastro_feature_57_4" class="step skipped_param"><div><span class="step param">confirm_password</span></div></th><th id="features_fixtures_cadastro_feature_57_5" class="step skipped_param"><div><span class="step param">message</span></div></th></tr> <script type="text/javascript">moveProgressBar('100.0');</script><tr class='step' id='features_fixtures_cadastro_feature_58'><td id="features_fixtures_cadastro_feature_58_0" class="step failed"><div><span class="step param">Bianca</span></div></td><script>makeRed('cucumber-header');makeRed('scenario_1');</script><td id="features_fixtures_cadastro_feature_58_1" class="step failed"><div><span class="step param">Moura</span></div></td><script></script><td id="features_fixtures_cadastro_feature_58_2" class="step failed"><div><span class="step param">qatyz@mailinator.com</span></div></td><script></script><td id="features_fixtures_cadastro_feature_58_3" class="step failed"><div><span class="step param">Abcd1234*</span></div></td><script></script><td id="features_fixtures_cadastro_feature_58_4" class="step failed"><div><span class="step param">Abcd1234</span></div></td><script></script><td id="features_fixtures_cadastro_feature_58_5" class="step failed"><div><span class="step param">Por favor, digite a senha novamente</span></div></td><script></script><span class="embed"><a href="" onclick="img=document.getElementById('img_1'); img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false">Evidência!</a><br>&nbsp;
-          <img id="img_1" style="display: none" src="img/imagem-1.png"/></span></tr><tr><td colspan="6" class="failed"><pre>undefined method `preencho&#39; for #&lt;CreateAccount:0x0000560923062ca0&gt;
-./features/support/Pages/cadastro_festas.rb:13:in `forms&#39;
-./features/step_definitions/steps_cadastro_festa.rb:10:in `&quot;prencho {string}, {string}, {string}, {string} e {string}&quot;&#39;
-features/fixtures/cadastro.feature:58:in `Quando prencho &quot;Bianca&quot;, &quot;Moura&quot;, &quot;qatyz@mailinator.com&quot;, &quot;Abcd1234*&quot; e &quot;Abcd1234&quot;&#39;
-features/fixtures/cadastro.feature:52:in `Quando prencho &quot;&lt;name&gt;&quot;, &quot;&lt;last_name&gt;&quot;, &quot;&lt;email&gt;&quot;, &quot;&lt;password&gt;&quot; e &quot;&lt;confirm_password&gt;&quot;&#39;</pre></td></tr><script></script> <script type="text/javascript">moveProgressBar('100.0');</script></table></div></div></div><script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0m2.059s seconds</strong>";</script><script type="text/javascript">document.getElementById('totals').innerHTML = "1 scenario (1 failed)<br />5 steps (1 failed, 2 skipped, 2 passed)";</script></div></body></html>
+}</script></head><body><!-- Step count 0--><div class="cucumber"><div id="cucumber-header"><div id="label"><h1>Cucumber Features</h1></div><div id="summary"><p id="totals"></p><p id="duration"></p><div id="expand-collapse"><p id="expander">Expand All</p><p id="collapser">Collapse All</p></div></div></div><div class="feature"><pre class="comment"># language: pt<br/></pre><span class="tag">@cadastro</span><h2><span class="val">Funcionalidade: Tela de Cadastro</span></h2><p class="narrative"></p><div class='scenario outline'><span class="tag">@CampoObrigatorio</span><span class="scenario_file">features/fixtures/cadastro.feature:6</span><h3 id="scenario_1"><span class="keyword">Esquema do Cenario:</span> <span class="val">Não preencher campos obrigatórios</span></h3><ol><li id='' class='step skipped'><div class="step_name"><span class="keyword">Dado </span><span class="step val">que acesso a pagina principal</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:7</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico em criar conta</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:8</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Quando </span><span class="step val">prencho &quot;&lt;name&gt;&quot;, &quot;&lt;last_name&gt;&quot;, &quot;&lt;email&gt;&quot;, &quot;&lt;password&gt;&quot; e &quot;&lt;confirm_password&gt;&quot;</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:9</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico no botão criar conta</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:10</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Então </span><span class="step val">devo ver a mensagem &quot;&lt;message&gt;&quot;</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:11</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script></ol><div class="examples"><h4><span class="keyword">Exemplos</span> <span class="val"></span></h4><table><tr class='step' id='features_fixtures_cadastro_feature_14'><th id="features_fixtures_cadastro_feature_14_0" class="step skipped_param"><div><span class="step param">name</span></div></th><th id="features_fixtures_cadastro_feature_14_1" class="step skipped_param"><div><span class="step param">last_name</span></div></th><th id="features_fixtures_cadastro_feature_14_2" class="step skipped_param"><div><span class="step param">email</span></div></th><th id="features_fixtures_cadastro_feature_14_3" class="step skipped_param"><div><span class="step param">password</span></div></th><th id="features_fixtures_cadastro_feature_14_4" class="step skipped_param"><div><span class="step param">confirm_password</span></div></th><th id="features_fixtures_cadastro_feature_14_5" class="step skipped_param"><div><span class="step param">message</span></div></th></tr> <script type="text/javascript">moveProgressBar('100.0');</script><tr class='step' id='features_fixtures_cadastro_feature_15'><td id="features_fixtures_cadastro_feature_15_0" class="step passed"><div><span class="step param"></span></div></td><td id="features_fixtures_cadastro_feature_15_1" class="step passed"><div><span class="step param"></span></div></td><td id="features_fixtures_cadastro_feature_15_2" class="step passed"><div><span class="step param"></span></div></td><td id="features_fixtures_cadastro_feature_15_3" class="step passed"><div><span class="step param"></span></div></td><td id="features_fixtures_cadastro_feature_15_4" class="step passed"><div><span class="step param"></span></div></td><td id="features_fixtures_cadastro_feature_15_5" class="step passed"><div><span class="step param">Esse campo é obrigatório.</span></div></td><span class="embed"><a href="" onclick="img=document.getElementById('img_1'); img.style.display = (img.style.display == 'none' ? 'block' : 'none');return false">Evidência!</a><br>&nbsp;
+          <img id="img_1" style="display: none" src="img/imagem-1.png"/></span></tr> <script type="text/javascript">moveProgressBar('100.0');</script><tr class='step' id='features_fixtures_cadastro_feature_16'><td id="features_fixtures_cadastro_feature_16_0" class="step failed"><div><span class="step param"></span></div></td><script>makeRed('cucumber-header');makeRed('scenario_1');</script><td id="features_fixtures_cadastro_feature_16_1" class="step failed"><div><span class="step param">Moura</span></div></td><script></script><td id="features_fixtures_cadastro_feature_16_2" class="step failed"><div><span class="step param">qatyz@mailinator.com</span></div></td><script></script><td id="features_fixtures_cadastro_feature_16_3" class="step failed"><div><span class="step param">Abc1234*</span></div></td><script></script><td id="features_fixtures_cadastro_feature_16_4" class="step failed"><div><span class="step param">Abc1234*</span></div></td><script></script><td id="features_fixtures_cadastro_feature_16_5" class="step failed"><div><span class="step param">Esse campo é obrigatório.</span></div></td><script></script></tr><tr><td colspan="6" class="failed"><pre>uninitialized constant Methods::SomeExceptionClass
+./features/support/Pages/Methods.rb:8:in `rescue in fillFields&#39;
+./features/support/Pages/Methods.rb:6:in `fillFields&#39;
+./features/support/Pages/cadastroFestasPage.rb:20:in `form&#39;
+./features/step_definitions/cadastroFestasSteps.rb:10:in `&quot;prencho {string}, {string}, {string}, {string} e {string}&quot;&#39;
+features/fixtures/cadastro.feature:16:in `Quando prencho &quot;&quot;, &quot;Moura&quot;, &quot;qatyz@mailinator.com&quot;, &quot;Abc1234*&quot; e &quot;Abc1234*&quot;&#39;
+features/fixtures/cadastro.feature:9:in `Quando prencho &quot;&lt;name&gt;&quot;, &quot;&lt;last_name&gt;&quot;, &quot;&lt;email&gt;&quot;, &quot;&lt;password&gt;&quot; e &quot;&lt;confirm_password&gt;&quot;&#39;</pre></td></tr><script></script> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><tr class='step' id='features_fixtures_cadastro_feature_17'><td id="features_fixtures_cadastro_feature_17_0" class="step skipped"><div><span class="step param">Bianca</span></div></td><td id="features_fixtures_cadastro_feature_17_1" class="step skipped"><div><span class="step param"></span></div></td><td id="features_fixtures_cadastro_feature_17_2" class="step skipped"><div><span class="step param">qatyz@mailinator.com</span></div></td><td id="features_fixtures_cadastro_feature_17_3" class="step skipped"><div><span class="step param">Abc1234*</span></div></td><td id="features_fixtures_cadastro_feature_17_4" class="step skipped"><div><span class="step param">Abc1234*</span></div></td><td id="features_fixtures_cadastro_feature_17_5" class="step skipped"><div><span class="step param">Esse campo é obrigatório.</span></div></td></tr> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><tr class='step' id='features_fixtures_cadastro_feature_18'><td id="features_fixtures_cadastro_feature_18_0" class="step skipped"><div><span class="step param">Bianca</span></div></td><td id="features_fixtures_cadastro_feature_18_1" class="step skipped"><div><span class="step param">Moura</span></div></td><td id="features_fixtures_cadastro_feature_18_2" class="step skipped"><div><span class="step param"></span></div></td><td id="features_fixtures_cadastro_feature_18_3" class="step skipped"><div><span class="step param">Abc1234*</span></div></td><td id="features_fixtures_cadastro_feature_18_4" class="step skipped"><div><span class="step param">Abc1234*</span></div></td><td id="features_fixtures_cadastro_feature_18_5" class="step skipped"><div><span class="step param">Esse campo é obrigatório.</span></div></td></tr> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><tr class='step' id='features_fixtures_cadastro_feature_19'><td id="features_fixtures_cadastro_feature_19_0" class="step skipped"><div><span class="step param">Bianca</span></div></td><td id="features_fixtures_cadastro_feature_19_1" class="step skipped"><div><span class="step param">Moura</span></div></td><td id="features_fixtures_cadastro_feature_19_2" class="step skipped"><div><span class="step param">qatyz@mailinator.com</span></div></td><td id="features_fixtures_cadastro_feature_19_3" class="step skipped"><div><span class="step param"></span></div></td><td id="features_fixtures_cadastro_feature_19_4" class="step skipped"><div><span class="step param">Abc1234*</span></div></td><td id="features_fixtures_cadastro_feature_19_5" class="step skipped"><div><span class="step param">Esse campo é obrigatório.</span></div></td></tr> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><tr class='step' id='features_fixtures_cadastro_feature_20'><td id="features_fixtures_cadastro_feature_20_0" class="step skipped"><div><span class="step param">Bianca</span></div></td><td id="features_fixtures_cadastro_feature_20_1" class="step skipped"><div><span class="step param">Moura</span></div></td><td id="features_fixtures_cadastro_feature_20_2" class="step skipped"><div><span class="step param">qatyz@mailinator.com</span></div></td><td id="features_fixtures_cadastro_feature_20_3" class="step skipped"><div><span class="step param">Abc1234*</span></div></td><td id="features_fixtures_cadastro_feature_20_4" class="step skipped"><div><span class="step param"></span></div></td><td id="features_fixtures_cadastro_feature_20_5" class="step skipped"><div><span class="step param">Esse campo é obrigatório.</span></div></td></tr> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></table></div></div><div class='scenario outline'><span class="tag">@DadoInvalido</span><span class="scenario_file">features/fixtures/cadastro.feature:23</span><h3 id="scenario_2"><span class="keyword">Esquema do Cenario:</span> <span class="val">Dados inválidos</span></h3><ol><li id='' class='step skipped'><div class="step_name"><span class="keyword">Dado </span><span class="step val">que acesso a pagina principal</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:24</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico em criar conta</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:25</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Quando </span><span class="step val">prencho &quot;&lt;name&gt;&quot;, &quot;&lt;last_name&gt;&quot;, &quot;&lt;email&gt;&quot;, &quot;&lt;password&gt;&quot; e &quot;&lt;confirm_password&gt;&quot;</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:26</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico no botão criar conta</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:27</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Então </span><span class="step val">devo ver a mensagem &quot;&lt;message&gt;&quot;</span></div><div class="step_file"><span>features/fixtures/cadastro.feature:28</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script></ol><div class="examples"><h4><span class="keyword">Exemplos</span> <span class="val"></span></h4><table><tr class='step' id='features_fixtures_cadastro_feature_31'><th id="features_fixtures_cadastro_feature_31_0" class="step skipped_param"><div><span class="step param">name</span></div></th><th id="features_fixtures_cadastro_feature_31_1" class="step skipped_param"><div><span class="step param">last_name</span></div></th><th id="features_fixtures_cadastro_feature_31_2" class="step skipped_param"><div><span class="step param">email</span></div></th><th id="features_fixtures_cadastro_feature_31_3" class="step skipped_param"><div><span class="step param">password</span></div></th><th id="features_fixtures_cadastro_feature_31_4" class="step skipped_param"><div><span class="step param">confirm_password</span></div></th><th id="features_fixtures_cadastro_feature_31_5" class="step skipped_param"><div><span class="step param">message</span></div></th></tr> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><tr class='step' id='features_fixtures_cadastro_feature_32'><td id="features_fixtures_cadastro_feature_32_0" class="step skipped"><div><span class="step param">Bianca</span></div></td><td id="features_fixtures_cadastro_feature_32_1" class="step skipped"><div><span class="step param">Moura</span></div></td><td id="features_fixtures_cadastro_feature_32_2" class="step skipped"><div><span class="step param">qatyzmailinator.com</span></div></td><td id="features_fixtures_cadastro_feature_32_3" class="step skipped"><div><span class="step param">abc</span></div></td><td id="features_fixtures_cadastro_feature_32_4" class="step skipped"><div><span class="step param">abc</span></div></td><td id="features_fixtures_cadastro_feature_32_5" class="step skipped"><div><span class="step param">Comprimento mínimo deste campo deve ser igual ou maior que 8 símbolos. Espaços a esquerda e a direita serão ignorados.</span></div></td></tr> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><script>makeRed('scenario_2');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><tr class='step' id='features_fixtures_cadastro_feature_33'><td id="features_fixtures_cadastro_feature_33_0" class="step skipped"><div><span class="step param">Bianca</span></div></td><td id="features_fixtures_cadastro_feature_33_1" class="step skipped"><div><span class="step param">Moura</span></div></td><td id="features_fixtures_cadastro_feature_33_2" class="step skipped"><div><span class="step param">qatyzmailinator.com</span></div></td><td id="features_fixtures_cadastro_feature_33_3" class="step skipped"><div><span class="step param">Abc1234*</span></div></td><td id="features_fixtures_cadastro_feature_33_4" class="step skipped"><div><span class="step param">Abc1234*</span></div></td><td id="features_fixtures_cadastro_feature_33_5" class="step skipped"><div><span class="step param">Por favor insira um endereço de email válido (Ex: exemplo@dominio.com).</span></div></td></tr> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><tr class='step' id='features_fixtures_cadastro_feature_34'><td id="features_fixtures_cadastro_feature_34_0" class="step skipped"><div><span class="step param">Bianca</span></div></td><td id="features_fixtures_cadastro_feature_34_1" class="step skipped"><div><span class="step param">Moura</span></div></td><td id="features_fixtures_cadastro_feature_34_2" class="step skipped"><div><span class="step param">qatyz@mailinator.com</span></div></td><td id="features_fixtures_cadastro_feature_34_3" class="step skipped"><div><span class="step param">abcd1234</span></div></td><td id="features_fixtures_cadastro_feature_34_4" class="step skipped"><div><span class="step param">abcd1234</span></div></td><td id="features_fixtures_cadastro_feature_34_5" class="step skipped"><div><span class="step param">O mínimo de classes de caracteres diferentes na palavra-passe é 3. As classes de caracteres são: Minúsculas, Maiúsculas, Números, Caracteres Especiais.</span></div></td></tr> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></table></div></div><div class='scenario'><span class="tag">@DadoExistente</span><span class="scenario_file">features/fixtures/cadastro.feature:37</span><h3 id="scenario_3"><span class="keyword">Cenario:</span> <span class="val">E-mail já cadastrado</span></h3><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><ol><li id='' class='step skipped'><div class="step_name"><span class="keyword">Dado </span><span class="step val">que acesso a pagina principal</span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:1</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico em criar conta</span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:5</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Quando </span><span class="step val">prencho <span class="param">&quot;Bianca&quot;</span>, <span class="param">&quot;Moura&quot;</span>, <span class="param">&quot;qatyz@mailinator.com&quot;</span>, <span class="param">&quot;Abcd1234*&quot;</span> e <span class="param">&quot;Abcd1234*&quot;</span></span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:9</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico no botão criar conta</span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:13</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Então </span><span class="step val">devo ver a mensagem <span class="param">&quot;Já existe uma conta com este endereço de e-mail. Se você tem certeza que é o seu endereço de e-mail, clique aqui para obter sua senha e acessar a sua conta.&quot;</span></span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:17</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></ol></div><script>makeRed('scenario_3');</script><div class='scenario'><span class="tag">@SenhaDiferente</span><span class="scenario_file">features/fixtures/cadastro.feature:45</span><h3 id="scenario_4"><span class="keyword">Cenario:</span> <span class="val">Preencher senhas diferentes</span></h3><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><ol><li id='' class='step skipped'><div class="step_name"><span class="keyword">Dado </span><span class="step val">que acesso a pagina principal</span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:1</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico em criar conta</span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:5</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Quando </span><span class="step val">prencho <span class="param">&quot;Bianca&quot;</span>, <span class="param">&quot;Moura&quot;</span>, <span class="param">&quot;qatyz@mailinator.com&quot;</span>, <span class="param">&quot;Abcd1234*&quot;</span> e <span class="param">&quot;Abcd1234 &quot;</span></span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:9</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico no botão criar conta</span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:13</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Então </span><span class="step val">devo ver a mensagem <span class="param">&quot;Por favor, digite a senha novamente&quot;</span></span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:17</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></ol></div><script>makeRed('scenario_4');</script><div class='scenario'><span class="tag">@CadastroSucesso</span><span class="scenario_file">features/fixtures/cadastro.feature:53</span><h3 id="scenario_5"><span class="keyword">Cenario:</span> <span class="val">Cadastro com sucesso</span></h3><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:8:in `Before'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><ol><li id='' class='step skipped'><div class="step_name"><span class="keyword">Dado </span><span class="step val">que acesso a pagina principal</span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:1</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico em criar conta</span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:5</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Quando </span><span class="step val">prencho <span class="param">&quot;Bianca&quot;</span>, <span class="param">&quot;Moura&quot;</span>, <span class="param">&quot;email&quot;</span>, <span class="param">&quot;Abcd1234*&quot;</span> e <span class="param">&quot;Abcd1234*&quot;</span></span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:9</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">E </span><span class="step val">clico no botão criar conta</span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:13</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><li id='' class='step skipped'><div class="step_name"><span class="keyword">Então </span><span class="step val">devo ver a mensagem <span class="param">&#39;Obrigado por registrar-se com Festas Store.&#39;</span></span></div><div class="step_file"><span>features/step_definitions/cadastroFestasSteps.rb:17</span></div></li> <script type="text/javascript">moveProgressBar('100.0');</script><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc49375a9 <unknown>
+#4 0x562cc4939302 <unknown>
+#5 0x562cc49316f6 <unknown>
+#6 0x562cc4949972 <unknown>
+#7 0x562cc49aeea1 <unknown>
+#8 0x562cc499c4e3 <unknown>
+#9 0x562cc4971d1a <unknown>
+#10 0x562cc4972e75 <unknown>
+#11 0x562cc4c16efd <unknown>
+#12 0x562cc4c3019b <unknown>
+#13 0x562cc4c18c65 <unknown>
+#14 0x562cc4c30ec8 <unknown>
+#15 0x562cc4c0c360 <unknown>
+#16 0x562cc4c4ca68 <unknown>
+#17 0x562cc4c4cbe8 <unknown>
+#18 0x562cc4c667fd <unknown>
+#19 0x7fc9de071609 <unknown>
+./features/support/hooks.rb:13:in `After'</pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre><div class="message"><pre>chrome not reachable
+  (Session info: chrome=101.0.4951.41) (Selenium::WebDriver::Error::WebDriverError)</pre></div><div class="backtrace"><pre>#0 0x562cc4be8ad3 <unknown>
+#1 0x562cc49483ff <unknown>
+#2 0x562cc4936b94 <unknown>
+#3 0x562cc492835d <unknown>
+#4 0x562cc49a4d77 <unknown>
+#5 0x562cc499c5b8 <unknown>
+#6 0x562cc4971d1a <unknown>
+#7 0x562cc4972e75 <unknown>
+#8 0x562cc4c16efd <unknown>
+#9 0x562cc4c3019b <unknown>
+#10 0x562cc4c18c65 <unknown>
+#11 0x562cc4c30ec8 <unknown>
+#12 0x562cc4c0c360 <unknown>
+#13 0x562cc4c4ca68 <unknown>
+#14 0x562cc4c4cbe8 <unknown>
+#15 0x562cc4c667fd <unknown>
+#16 0x7fc9de071609 <unknown></pre></div><pre class="ruby"><code><span class="linenum">-1</span># Couldn't get snippet for #0 0x562cc4be8ad3 <unknown>
+<span class="linenum">0</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre></ol></div><script>makeRed('scenario_5');</script></div><script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0m3.597s seconds</strong>";</script><script type="text/javascript">document.getElementById('totals').innerHTML = "12 scenarios (11 failed, 1 passed)<br />60 steps (1 failed, 52 skipped, 7 passed)";</script></div></body></html>

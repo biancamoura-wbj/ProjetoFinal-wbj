@@ -1,0 +1,22 @@
+#Link de acesso ao site
+site: 'http://festas.magentoteste.local/'
+
+#Elementos de cadastro
+linkCadastre: 'Cadastre-se'
+nameRegister: "#firstname"
+lastNameRegister: "#lastname"
+emailRegister: "#email_address"
+passwordRegister: "#password"
+confirmPassword: "#password-confirmation"
+botaoCadastre: 'Cadastre-se'
+
+
+#Elementos de Login
+emailLogin: '#email'
+passwordLogin: '#pass'
+linkEntre: 'Entre'
+botaoEntre: 'Entre'
+
+#Elementos de Busca
+searchField: 'input[placeholder="Qual artigo de festa você está procurando?"]'
+botaoPequisa: 'Pesquisa'
